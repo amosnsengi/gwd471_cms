@@ -17,7 +17,7 @@
     
     <section>
     	<h2>Intro</h2>
-        <p>lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette
+        <p>lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin <img src="edmc-03249103.jpg" alt="img" /> ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette
         </p>
     </section>
     
