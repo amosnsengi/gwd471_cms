@@ -10,15 +10,15 @@
 	<header>
 		<h1>Welcome to our site!</h1>
         <nav>
-        	<a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+        	<a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
         </nav>
     </header>
     <div id="wrap">
     <section id="left">
-    	<h2>Intro</h2>
-        <p>lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin <img src="edmc-03249103.jpg" alt="img" /> ans te ma tette lipsum href tot fin ans te ma tette 
+    	<h2>About</h2>
+        <p>lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette 
         </p>
     </section>
     

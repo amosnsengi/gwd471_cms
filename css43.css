@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width:700px;
+	height:auto;
+	margin:auto;
+	/*background:*/
+}
+
+#wrap{
+}
+
+#left{
+	width:500px;
+	height:300px;
+	float:left;
+}
+
+#bar{
+	width:198px;
+	height:auto;
+	float:left;
+}
+
+
+footer{
+	clear:both;
+}
+
+#form input{
+	display:inline-block;
+}
