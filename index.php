@@ -1,33 +1,50 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Widget Code</title>
-<link href="css43.css" rel="stylesheet" type="text/css">
-</head>
+  
+  <?php require_once('../../config.php'); ?><!--log into the database-->
+  <?php $page_id = 'home'; ?>
 
-<body>
-	<header>
-		<h1>Welcome to our site!</h1>
-        <nav>
-        	<a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-        </nav>
-    </header>
-    <div id="wrap">
-    <section id="left">
-    	<h2>Intro</h2>
-        <p>lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin <img src="edmc-03249103.jpg" alt="img" /> ans te ma tette lipsum href tot fin ans te ma tette 
-        </p>
+  <?php
+    $sql= "
+      SELECT * 
+      FROM site_content
+      WHERE page_name='home'";
+
+      $myData = $db->query($sql);
+
+      //create container for each piece of data
+      while($row = $myData->fetch_assoc())
+      {
+        if($row['section_name'] ==='blurb')
+          {
+          $blurb = $row['content'];
+          }
+
+        if($row['section_name'] ==='intro')
+          {
+          $intro = $row['content'];
+          }
+  }
+  ?>
+
+  <?php require_once('includes/top.php'); ?>
+  <?php require_once('includes/header.php'); ?>
+
+  <style>
+  body {
+  background:url(images/photography.png) repeat;
+  }
+  section {
+    width:74%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  </style>
+  
+    <section>
+      <?php require_once('includes/body.php'); ?>
+    	
     </section>
-    
-    <section id="bar">lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette lipsum href tot fin ans te ma tette
-    </section>
-    </div>
-    
-    <footer>
-    	<p>Widget Code &copy;2014</p>
-    </footer>
+   
+  <?php require_once('includes/footer.php'); ?>
+   
 </body>
 </html>

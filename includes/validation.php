@@ -7,7 +7,6 @@
 function verifyNum ($testString) {
 	// Check for only numbers 
 	return (preg_match("(^[[:digit:]]+$)", $testString));
-	//return (eregi('^([[:digit:]])+$', $testString)); OLD CODE
 }
 
 
@@ -30,7 +29,6 @@ function verifyFileName ($testString) {
 
 function verifyEmail ($testString) {
 	// Check for a valid email address 
-	//$regexp = "/(^[[:alnum:]]|_|\.|-)+@([[:alnum:]]|\.|-)+(\.)([a-z]{2,4}$)/"; OLD CODE
 	$regexp = "/^[^0-9][A-z0-9_]+([.][A-z0-9_]+)*[@][A-z0-9_]+([.][A-z0-9_]+)*[.][A-z]{2,4}$/";
 	return (preg_match($regexp, $testString));
 }
@@ -39,8 +37,6 @@ function verifyEmail ($testString) {
 //If an administrative client is using this for page content, then allowing <a>tags is ok, 
 //If community members or public folks are adding content, <a> tags could pose security and spam issues.
 function verifyText ($testString) {
-	// Check for letters, numbers and dash, period, ?, !, space and single and double quotes only. 
-	//return (eregi("^([[:alnum:]]|-|\.| |\?|\!|\"|')+$", $testString));
 	$hackish = array("javascript:","Javascript:","javaScript:","JavaScript:", "(","{");
 	$safeReplace = array("#","#","#","#","&#40;","&#123;");
 	
